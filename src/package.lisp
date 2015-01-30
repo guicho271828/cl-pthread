@@ -12,3 +12,8 @@
 
 ;; blah blah blah.
 
+(define-foreign-library libpthread
+  (:default "libpthread.so"))
+
+(use-foreign-library libpthread)
+
