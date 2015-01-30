@@ -20,9 +20,14 @@
   :author "Masataro Asai"
   :mailto "guicho2.71828@gmail.com"
   :license "LLGPL"
+  :defsystem-depends-on (:cffi-grovel)
   :depends-on (:cffi :iolib/syscalls :alexandria :iterate)
   :components ((:module "src"
                 :components
-                ((:file "package"))))
+                ((:file "package")
+                 (:cffi-grovel-file "grovel")
+                 (:file "swig")
+                 (:file "pthread-swig"))
+                :serial t))
   :description ""
   :in-order-to ((test-op (load-op cl-pthread.test))))

@@ -13,6 +13,7 @@
 ;; blah blah blah.
 
 (define-foreign-library libpthread
+  (:linux "libpthread.so.0")
   (:default "libpthread.so"))
 
 (use-foreign-library libpthread)
