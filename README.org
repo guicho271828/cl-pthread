@@ -1,4 +1,6 @@
 
+*abondoned project* if anyone interested in continuing this project I will give the ownership of this repository
+
 Wrapper layer for POSIX pthread on common lisp.
 
 Some functions may not be appropriate for use in multithreaded environment.
