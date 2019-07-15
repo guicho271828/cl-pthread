@@ -1,5 +1,5 @@
 
-*abondoned project* if anyone interested in continuing this project I will give the ownership of this repository
+*abandoned project* if anyone interested in continuing this project I will give the ownership of this repository
 
 Wrapper layer for POSIX pthread on common lisp.
 
